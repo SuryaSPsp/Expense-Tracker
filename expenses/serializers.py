@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from .models import Expense
 
+# for auto validation and to generate json data
 class ExpenseSerializer(serializers.ModelSerializer):
     class Meta:
         model = Expense
